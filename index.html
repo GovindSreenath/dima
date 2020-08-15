@@ -7,17 +7,18 @@
     <title>dimaa</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
 </head>
 
-<body style="background-image: url(&quot;assets/img/istockphoto-1138395421-612x612.jpg&quot;);">
+<body>
     <div class="container-fluid" style="padding: 0px;background-color: #ffe37f;opacity: 1;width: 100%;">
-        <p class="text-center d-block" style="color: rgb(253,254,255);background-color: #000000;margin-bottom: 2px;"><br>Visit our&nbsp;<a href="https://www.fema.gov/disasters/coronavirus"><span style="text-decoration: underline;">COVID-19 page</span></a>&nbsp;and&nbsp;<a href="https://www.coronavirus.gov/"><span style="text-decoration: underline;">coronavirus.gov</span></a>&nbsp;for
+        <p class="text-center d-block" style="color: rgb(0,0,0);background-color: #ffffff;margin-bottom: 2px;"><br>Visit our&nbsp;<a href="https://www.fema.gov/disasters/coronavirus"><span style="text-decoration: underline;">COVID-19 page</span></a>&nbsp;and&nbsp;<a href="https://www.coronavirus.gov/"><span style="text-decoration: underline;">coronavirus.gov</span></a>&nbsp;for
             the latest updates on the pandemic response.<br><br></p>
     </div>
-    <nav class="navbar navbar-light navbar-expand-lg sticky-top text-dark border-warning text-left text-sm-left text-md-left text-lg-left text-xl-left align-items-start align-content-start navigation-clean" style="background-color: #ffb546;padding: 7px;">
+    <nav class="navbar navbar-light navbar-expand-lg sticky-top text-dark border-warning text-left text-sm-left text-md-left text-lg-left text-xl-left align-items-start align-content-start navigation-clean" style="background-color: #fed97d;padding: 7px;">
         <div class="container"><a class="navbar-brand" href="#">Co<img>mpany Name</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" data-bs-hover-animate="pulse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon text-center text-primary"></span></button>
             <div
                 class="collapse navbar-collapse text-center align-items-center align-items-xl-center" id="navcol-1" style="font-size: 18px;background-repeat: no-repeat;margin-top: 0px;margin-right: auto;margin-left: auto;padding: 0px;">
@@ -32,22 +33,44 @@
                 </ul><button class="btn btn-dark ml-auto pulse animated" type="button">Button</button></div>
         </div>
     </nav>
-    <section style="width: 80%;height: 50%;margin-left: auto;margin-right: auto;"></section>
-    <section></section>
-    <div class="simple-slider">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: url(&quot;assets/img/3700.jpg&quot;);"></div>
-                <div class="swiper-slide" style="background-image: url(&quot;assets/img/colin-1me-21.jpg&quot;);"></div>
-                <div class="swiper-slide" style="background-image: url(&quot;assets/img/Idukki_Kanhaiya_viral_video.jpg&quot;);"></div>
+    <section>
+        <section id="carousel">
+            <div class="carousel slide" data-ride="carousel" id="carousel-1">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item" style="background-image: url(&quot;assets/img/s2.jpg&quot;);">
+                        <div class="jumbotron pulse animated hero-nature carousel-hero" style="background-image: url(&quot;assets/img/s1.jpg&quot;);">
+                            <h1 class="hero-title">Hero Nature</h1>
+                            <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                            <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="jumbotron pulse animated hero-photography carousel-hero" style="background-image: url(&quot;assets/img/s3.jpeg&quot;);">
+                            <h1 class="hero-title">Hero Photography</h1>
+                            <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                            <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="jumbotron pulse animated hero-technology carousel-hero" style="background-image: url(&quot;assets/img/s4.jpg&quot;);">
+                            <h1 class="hero-title">Hero Technology</h1>
+                            <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                            <p><a class="btn btn-primary hero-button plat" role="button" href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                <ol
+                    class="carousel-indicators">
+                    <li data-target="#carousel-1" data-slide-to="0"></li>
+                    <li data-target="#carousel-1" data-slide-to="1"></li>
+                    <li data-target="#carousel-1" data-slide-to="2" class="active"></li>
+                    </ol>
             </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </div>
+        </section>
+    </section>
     <div></div>
-    <div class="highlight-phone" style="background-color: rgb(255,219,126);">
+    <div class="highlight-phone" style="background-color: rgb(255,255,255);">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -58,6 +81,16 @@
                 <div class="col-sm-4">
                     <div class="d-none d-md-block iphone-mockup"><img class="device" src="assets/img/rg.jpg" style="filter: saturate(100%) sepia(0%);"><img class="device" src="assets/img/fg2.jpg" style="filter: saturate(100%) sepia(0%);"></div>
                 </div>
+            </div>
+        </div>
+        <div class="row clearmargin clearpadding row-image-txt">
+            <div class="col-xs-12 col-sm-6 col-md-6 clearmargin clearpadding col-sm-push-6"><img style="width:100%;" src="assets/img/office-front.jpeg"></div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6" style="padding:20px;">
+                <h1>Who are us?</h1>
+                <hr>
+                <p><br>DIMA&nbsp; is an Disaster mangement&nbsp; organisation,&nbsp; providing disaster response &amp; preparedness services across Kerala and Nearby. As a&nbsp;<strong>disaster relief agency</strong>, we help people to survive and rebuild
+                    their lives through food, medical, education, shelter and livelihood programs.<br><br></p>
+                <div style="text-align:center"><button class="btn btn-light btn-lg" type="button">Join Us</button></div>
             </div>
         </div>
     </div>
